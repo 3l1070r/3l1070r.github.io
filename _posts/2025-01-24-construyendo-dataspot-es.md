@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Construyendo dataspot: Lecciones desde la Detección de Fraude Real"
 date: 2025-01-24
 categories: [deteccion-fraude, ciencia-datos, codigo-abierto]
