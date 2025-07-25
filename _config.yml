@@ -1,0 +1,16 @@
+title: "3l1070r"
+description: "Staff Engineer | Software Architecture | Security"
+baseurl: ""
+url: "https://3l1070r.dev"
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Author
+author:
+  name: "Elio Rincón"
+  github: "3l1070r"
+  linkedin: "3l1070r"
