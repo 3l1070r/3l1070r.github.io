@@ -3,6 +3,8 @@ description: "Staff Engineer | Software Architecture | Security"
 baseurl: ""
 url: "https://3l1070r.dev"
 
+theme: minima
+
 # Build settings
 markdown: kramdown
 plugins:
