@@ -10,6 +10,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-default-layout
 
 # Author
 author:
