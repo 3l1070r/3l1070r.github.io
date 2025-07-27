@@ -85,7 +85,6 @@ date: 2025-01-24
 categories: [category1, category2]
 tags: [tag1, tag2]
 ---
-
 Your content here...
 ```
 

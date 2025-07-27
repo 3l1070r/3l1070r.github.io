@@ -5,15 +5,14 @@ permalink: /about/
 author_profile: true
 ---
 
-# About Elio Rincón
-
 Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology.
 
 ## 🚀 Current Work
 
-**Creator of dataspot** - Open-source Python library for discovering data concentration patterns and fraud detection, built from real-world fraud detection needs.
+**dataspot** - Open-source Python library for discovering data concentration patterns and fraud detection, built from real-world fraud detection needs.
 
-### Key Features of dataspot:
+### Key Features of dataspot
+
 - 🎯 Purpose-built for finding data concentrations
 - 🔍 Fraud detection ready
 - ⚡ Simple API - insights in 3 lines of code
@@ -22,46 +21,59 @@ Lead Engineer passionate about building and architecting scalable software solut
 
 ## 💻 Technical Skills
 
-### Languages
-- **Python** - Primary language for data analysis and backend development
-- **Go** - Building high-performance microservices and system tools
-- **JavaScript** - Frontend development and full-stack solutions
+- **Languages**:
 
-### Infrastructure & Messaging
-- **Message Queues**: Kafka, RabbitMQ, SQS
-- **Databases & Caching**: PostgreSQL, MongoDB, Redis
-- **Software Architecture**: Designing scalable and maintainable systems
-- **Backend Development**: APIs, microservices, and distributed systems
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+  ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+- **Message Queues**:
+
+  ![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
+  ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+  ![SQS](https://img.shields.io/badge/Amazon%20SQS-FF9900?style=flat&logo=amazon-aws&logoColor=white)
+
+- **Databases & Caching**:
+
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+  ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
 
 ## 🛡️ Security & Systems
 
 ### Network Security
+
 - **pfSense** - Network security and firewall management
 - **Linux Servers** - Infrastructure hardening and security
 - **Cybersecurity** - Passionate about ethical hacking and security research
 
 ### System Administration
+
 - **Linux** - Server management and infrastructure
 - **FreeBSD** - Exploring for personal projects and learning
-- **Network Security** - pfSense configurations and network hardening
 
 ## 🎯 Areas of Interest
 
 ### Software Architecture
+
 Designing robust, scalable systems that can handle real-world complexity while maintaining clean, maintainable code.
 
 ### Data Analysis & Fraud Detection
+
 Building tools and systems for pattern detection and fraud prevention, with a focus on practical, production-ready solutions.
 
 ### Blockchain Technology
+
 Deep interest in **Bitcoin** protocol, cryptocurrency security, and blockchain infrastructure.
 
 ### Open Source
+
 Committed to building tools that solve real problems and sharing knowledge with the developer community.
 
 ## 🌟 Philosophy
 
 I believe in:
+
 - **Building solutions that matter** - Tools that solve real-world problems
 - **Security-first approach** - Every system should be designed with security in mind
 - **Continuous learning** - Technology evolves, and so should we
@@ -75,4 +87,4 @@ I believe in:
 
 ---
 
-*Always building, always learning, always securing.* 
+_Always building, always learning, always securing._

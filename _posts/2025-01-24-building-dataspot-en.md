@@ -11,7 +11,7 @@ description: "The story behind creating dataspot - an open-source library born f
 
 # Building dataspot: Lessons from Real-World Fraud Detection
 
-*How obsessing over fraud patterns led to an open-source tool that finds data concentrations*
+How obsessing over fraud patterns led to an open-source tool that finds data concentrations\_
 
 ---
 
@@ -22,7 +22,7 @@ I believe fraud detection is one of the most interesting and passionate tasks th
 During my time leading the risk operation team, I could validate that it was always fascinating to understand **how** and **what** fraudsters did to commit fraud. The cases were endlessly creative:
 
 - **Social engineering attacks** - Fraudsters directly contacting the CEO, requesting product activations or configuration changes to process more transactions
-- **Tax evasion schemes** - Using third-party cards to accumulate discounts when paying taxes, exploiting promotional loopholes  
+- **Tax evasion schemes** - Using third-party cards to accumulate discounts when paying taxes, exploiting promotional loopholes
 - **Internal corruption** - Attempting to bribe company employees to activate fraudulent merchants
 - And many, many more...
 
@@ -32,7 +32,7 @@ I thought about this constantly - while sleeping, while eating, while doing othe
 
 ## The Eureka Moment
 
-The insight that changed everything: *I need to see concentrations.*
+The insight that changed everything: _I need to see concentrations._
 
 However, I must say that **penot all concentrations or anomalies are fraud**. But **every fraud has some concentration or anomaly in it**.
 
@@ -61,6 +61,7 @@ For more info, visit the official GitHub page: [dataspot Documentation](https://
 I tested it in silence for a while without telling anyone. I even built a frontend to visualize the nodes and data in a more digestible way.
 
 I must say, it became a tool I used both for:
+
 - **Evaluating and detecting fraud**
 - **Helping the team understand complex cases**
 
@@ -73,9 +74,11 @@ It's not a Swiss Army knife that solves all problems, but I do think it's a good
 Creating these tools comes with real technical challenges:
 
 ### Performance: Handling Thousands of JSONs
+
 Processing large datasets without taking forever was crucial. When representing data as a tree, you deal with:
+
 - **Recursion complexity**
-- **O notation concerns** 
+- **O notation concerns**
 - **Nested loops**
 - **Visualization**: Representing Data Visually
 
@@ -95,12 +98,12 @@ I had tried before with a test project that got forgotten - I don't even remembe
 
 ## Looking Forward
 
-This is a project I find super interesting. I'll continue maintaining it gradually. 
+This is a project I find super interesting. I'll continue maintaining it gradually.
 
 I invite everyone who can/wants to contribute ideas, improvements, code corrections - you'll always be welcome :)
 
 ---
 
-**dataspot** is available on [GitHub](https://github.com/frauddi/dataspot) and [PyPI](https://pypi.org/project/dataspot/). 
+**dataspot** is available on [GitHub](https://github.com/frauddi/dataspot) and [PyPI](https://pypi.org/project/dataspot/).
 
-*Have you worked with fraud detection? I'd love to hear about your experiences and patterns you've discovered.*
+_Have you worked with fraud detection? I'd love to hear about your experiences and patterns you've discovered._

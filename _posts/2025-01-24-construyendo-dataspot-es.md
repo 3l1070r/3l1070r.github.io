@@ -2,7 +2,7 @@
 layout: single
 title: "Construyendo dataspot: Lecciones desde la Detección de Fraude Real"
 date: 2025-01-24
-categories: [deteccion-fraude, ciencia-datos, codigo-abierto]
+categories: [posts, deteccion-fraude, ciencia-datos, codigo-abierto]
 tags: [python, seguridad, algoritmos, analisis-datos]
 author: Elio Rincón
 lang: es
@@ -11,7 +11,7 @@ description: "La historia detrás de crear dataspot - una librería open-source 
 
 # Construyendo dataspot: Lecciones desde la Detección de Fraude Real
 
-*Cómo obsesionarme con patrones de fraude llevó a una herramienta open-source que encuentra concentraciones de datos*
+Cómo obsesionarme con patrones de fraude llevó a una herramienta open-source que encuentra concentraciones de datos\_
 
 ---
 
@@ -32,7 +32,7 @@ Lo estuve pensando durante mucho tiempo, mientras dormía, mientras comía, mien
 
 ## El Momento Eureka
 
-La revelación que lo cambió todo: *Tengo que ver concentraciones.*
+La revelación que lo cambió todo: _Tengo que ver concentraciones._
 
 Sin embargo, debo decir que **no todas las concentraciones o anomalías son fraude**. Pero **sí todos los fraudes tienen alguna concentración o anomalía en él**.
 
@@ -61,6 +61,7 @@ Para más info, pueden visitar la página oficial de GitHub acá: [Documentació
 Lo estuve probando en silencio sin decir nada durante un tiempo, y de hecho hasta un frontend para dibujar los nodos y la data de forma más fácil de ver hice.
 
 Debo decir, que fue una tool que utilicé tanto como para:
+
 - **Evaluar y detectar fraude**
 - **Ayudar al equipo** a ver qué pasaba en algunos casos complicados
 
@@ -73,9 +74,11 @@ No es una navaja suiza que soluciona todos los problemas, pero sí creo que es u
 Crear estas herramientas viene con desafíos técnicos reales:
 
 ### Performance: Manejar Miles de JSONs
+
 Procesar datasets grandes sin que demore una eternidad era crucial. Dentro de performance siempre al representar la data como un árbol, lidias con:
+
 - **Complejidad de recursión**
-- **Notación O** 
+- **Notación O**
 - **For anidados**
 - **Visualización**: Representar la Data de Forma Visible
 
@@ -103,4 +106,4 @@ Invito a todo el que pueda/quiera a aportar ideas, mejoras, correcciones al cód
 
 **dataspot** está disponible en [GitHub](https://github.com/frauddi/dataspot) y [PyPI](https://pypi.org/project/dataspot/).
 
-*¿Has trabajado con detección de fraude? Me encantaría escuchar sobre tus experiencias y patrones que hayas descubierto.*
+_¿Has trabajado con detección de fraude? Me encantaría escuchar sobre tus experiencias y patrones que hayas descubierto._
