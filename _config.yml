@@ -36,11 +36,11 @@ comments:
     label: "comment"
     repo: "3l1070r/3l1070r.github.io"
 
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "GTM-WQ3GXLFP"
-    anonymize_ip: false
+# Repository
+repository: "3l1070r/3l1070r.github.io"
+
+# Google Tag Manager
+gtm_id: "GTM-WQ3GXLFP"
 
 # Author
 author:
