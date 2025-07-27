@@ -1,11 +1,9 @@
 ---
-layout: default
-title: Home
+layout: home
+author_profile: true
+title: "Software Architecture & Security"
+excerpt: "Staff Engineer passionate about building scalable systems and exploring security technologies."
 ---
-
-# Software Architecture & Security
-
-Staff Engineer passionate about building scalable systems and exploring security technologies.
 
 ## Recent Posts
 
