@@ -28,7 +28,8 @@
     "node_modules/**",
     "_site/**",
     "vendor/**",
-    ".git/**"
+    ".git/**",
+    "assets/**/*.scss"
   ],
   
   // Use frontmatter for Jekyll files

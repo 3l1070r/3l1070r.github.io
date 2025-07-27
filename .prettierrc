@@ -16,6 +16,12 @@
         "proseWrap": "preserve",
         "tabWidth": 2
       }
+    },
+    {
+      "files": "assets/**/*.scss",
+      "options": {
+        "parser": "scss"
+      }
     }
   ]
 } 

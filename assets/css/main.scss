@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+// Import minimal-mistakes theme
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Custom color overrides for minimal-mistakes theme */
+
+// Override primary color variables
+$primary-color: #16B798 !default;
+$link-color: #16B798 !default;
+
+// Footer styling
+.page__footer {
+  background-color: #1a1a1a !important;
+}
+
+// Primary buttons styling
+.btn--primary {
+  background-color: #16B798 !important;
+  border-color: #16B798 !important;
+  
+  &:hover {
+    background-color: #128a73 !important;
+    border-color: #128a73 !important;
+  }
+}
+
+// Social share buttons visibility
+.page__share .btn {
+  color: #ffffff !important;
+  
+  &:hover {
+    color: #ffffff !important;
+  }
+}
+
+// Links styling
+a {
+  color: #16B798 !important;
+  
+  &:hover {
+    color: #128a73 !important;
+  }
+}
+
+// Tags and categories styling
+.page__taxonomy a {
+  background-color: #16B798 !important;
+  color: #ffffff !important;
+  
+  &:hover {
+    background-color: #128a73 !important;
+    color: #ffffff !important;
+  }
+} 
