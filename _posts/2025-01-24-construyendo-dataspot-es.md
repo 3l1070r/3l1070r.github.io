@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Construyendo dataspot: Lecciones desde la Detección de Fraude Real"
 date: 2025-01-24
 categories: [deteccion-fraude, ciencia-datos, codigo-abierto]
@@ -77,7 +77,7 @@ Procesar datasets grandes sin que demore una eternidad era crucial. Dentro de pe
 - **Complejidad de recursión**
 - **Notación O** 
 - **For anidados**
-- ** Visualización**: Representar la Data de Forma Visible
+- **Visualización**: Representar la Data de Forma Visible
 
 Aquí la forma de pensar en cómo diseñarla de forma de afectar lo menos posible todo esto.
 

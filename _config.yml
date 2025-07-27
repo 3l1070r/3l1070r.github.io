@@ -3,14 +3,37 @@ description: "Staff Engineer | Software Architecture | CyberSecurity"
 baseurl: ""
 url: "https://3l1070r.dev"
 
-remote_theme: pages-themes/cayman@v0.2.0
+# Chirpy theme
+remote_theme: cotes2020/jekyll-theme-chirpy@v7.0.1
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-remote-theme
+  - jekyll-paginate
+
+# Chirpy specific
+timezone: America/Bogota
+paginate: 10
+
+# Comments (Giscus)
+comments:
+  provider: giscus
+  giscus:
+    repo: 3l1070r/3l1070r.github.io
+    repo_id: # Se genera automáticamente
+    category: General
+    category_id: # Se genera automáticamente
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: bottom
+    theme: preferred_color_scheme
+    lang: es
 
 # Author
 author:
