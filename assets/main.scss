@@ -1,0 +1,45 @@
+---
+// Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Tu color personalizado */
+:root {
+  --primary-color: #16B798;
+}
+
+.page__footer {
+  background-color: #1a1a1a;
+}
+
+.masthead {
+  background-color: #16B798;
+}
+
+.btn--primary {
+  background-color: #16B798 !important;
+  border-color: #16B798 !important;
+}
+
+.btn--primary:hover {
+  background-color: #128a73 !important;
+  border-color: #128a73 !important;
+}
+
+a {
+  color: #16B798;
+}
+
+a:hover {
+  color: #128a73;
+}
+
+.archive__item-title a {
+  color: #16B798;
+}
+
+.page__taxonomy a {
+  background-color: #16B798;
+}
