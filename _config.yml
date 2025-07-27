@@ -34,6 +34,7 @@ comments:
     theme: "github-dark"
     issue_term: "pathname"
     label: "comment"
+    repo: "3l1070r/3l1070r.github.io"
 
 # Analytics (opcional)
 analytics:
