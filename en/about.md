@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "About"
-permalink: /about/
+permalink: /en/about/
 author_profile: true
+lang: en
 ---
 
 Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology.
@@ -84,7 +85,8 @@ I believe in:
 - **Website**: [3l1070r.dev](https://3l1070r.dev)
 - **GitHub**: [@3l1070r](https://github.com/3l1070r)
 - **LinkedIn**: [linkedin.com/in/3l1070r](https://www.linkedin.com/in/3l1070r/)
+{{ t.author.location }}
 
 ---
-
 _Always building, always learning, always securing._
+!-- Tu contenido actual del about aquí -->

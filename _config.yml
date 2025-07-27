@@ -3,10 +3,8 @@ description: "Staff Engineer | Software Architecture | CyberSecurity"
 baseurl: ""
 url: "https://3l1070r.dev"
 
-# Minimal Mistakes theme
 remote_theme: mmistakes/minimal-mistakes@4.24.0
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 plugins:
@@ -18,16 +16,17 @@ plugins:
   - jekyll-seo-tag
   - jekyll-gist
 
-# Site settings
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 search: true
 search_full_content: true
 
-# Pagination
 paginate: 5
 paginate_path: /page:num/
 
-# Comments (Utterances - GitHub based)
+languages: ["en", "es"]
+default_locale: "en"
+locale: "en_US"
+
 comments:
   provider: "utterances"
   utterances:
@@ -36,23 +35,19 @@ comments:
     label: "comment"
     repo: "3l1070r/3l1070r.github.io"
 
-# Repository
 repository: "3l1070r/3l1070r.github.io"
 
-# Google Tag Manager
 gtm_id: "GTM-WQ3GXLFP"
 
-# Google Analytics (alternativa directa)
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-T0GCL4VHMY"
     anonymize_ip: false
 
-# Author
 author:
   name: "Elio Rincón"
-  avatar: # URL de tu foto (opcional)
+  avatar: "https://gravatar.com/avatar/7407976f3a4cab233e085bf055d4d96f?s=400&d=robohash&r=x"
   bio: "Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology."
   location: "Bogotá, Colombia"
   links:
@@ -63,7 +58,6 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/3l1070r/"
 
-# Footer
 footer:
   links:
     - label: "GitHub"
@@ -73,9 +67,31 @@ footer:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/3l1070r/"
 
-# Defaults
 defaults:
-  # _posts
+  - scope:
+      path: "_posts/en"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide
+      lang: en
+  - scope:
+      path: "_posts/es"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      classes: wide
+      lang: es
   - scope:
       path: ""
       type: posts
@@ -87,8 +103,21 @@ defaults:
       share: true
       related: true
       classes: wide
+  - scope:
+      path: "en/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      lang: en
+  - scope:
+      path: "es/"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      lang: es
 
-# Categories and tags
 category_archive:
   type: liquid
   path: /categories/

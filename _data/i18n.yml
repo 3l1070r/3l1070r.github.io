@@ -1,0 +1,31 @@
+en:
+  site:
+    title: "3l1070r"
+  nav:
+    about: "About"
+    posts: "Posts"
+  content:
+    recent_posts: "Recent Posts"
+    view_all_posts: "View All Posts"
+    no_posts: "No posts available in English yet."
+    always_learning: "Always building, always learning, always securing."
+  author:
+    name: "Elio Rincón"
+    bio: "Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology."
+    location: "Bogotá, Colombia"
+
+es:
+  site:
+    title: "3l1070r"
+  nav:
+    about: "Acerca de"
+    posts: "Publicaciones"
+  content:
+    recent_posts: "Publicaciones Recientes"
+    view_all_posts: "Ver Todas las Publicaciones"
+    no_posts: "No hay publicaciones disponibles en español aún."
+    always_learning: "Siempre construyendo, siempre aprendiendo, siempre protegiendo."
+  author:
+    name: "Elio Rincón"
+    bio: "Lead Engineer apasionado por construir y arquitecturar soluciones de software escalables. Profundamente interesado en ciberseguridad, infraestructura robusta Linux/FreeBSD, y tecnología Bitcoin."
+    location: "Bogotá, Colombia" 

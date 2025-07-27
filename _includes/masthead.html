@@ -1,0 +1,136 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          <li class="masthead__menu-item">
+            <a href="#" id="about-link">About</a>
+          </li>
+          <li class="masthead__menu-item">
+            <a href="#" id="posts-link">Posts</a>
+          </li>
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+        <div class="language-selector-wrapper">
+            <select id="language-select" class="language-select">
+              <option value="en">🇺🇸 EN</option>
+              <option value="es">🇪🇸 ES</option>
+            </select>
+          </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<style>
+.language-selector-wrapper {
+  display: inline-block;
+  margin-left: 1rem;
+  vertical-align: middle;
+}
+
+.language-select {
+  background-color: #252a34;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.8em;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  vertical-align: middle;
+}
+
+.language-select:hover {
+  background-color: #1e242c;
+}
+
+.language-select option {
+  background-color: #252a34;
+  color: #fff;
+}
+</style>
+
+<script>
+(function() {
+  // i18n data generated from Jekyll
+  const i18nData = {
+    en: {
+      about: "{{ site.data.i18n.en.nav.about }}",
+      posts: "{{ site.data.i18n.en.nav.posts }}"
+    },
+    es: {
+      about: "{{ site.data.i18n.es.nav.about }}",
+      posts: "{{ site.data.i18n.es.nav.posts }}"
+    }
+  };
+
+  const currentUrl = window.location.pathname;
+  const isSpanish = currentUrl.includes('/es/');
+  const currentLang = isSpanish ? 'es' : 'en';
+  
+  const aboutLink = document.getElementById('about-link');
+  const postsLink = document.getElementById('posts-link');
+  const languageSelect = document.getElementById('language-select');
+  
+  if (isSpanish) {
+    aboutLink.href = '/es/about/';
+    aboutLink.textContent = i18nData.es.about;
+    postsLink.href = '/es/posts/';
+    postsLink.textContent = i18nData.es.posts;
+      } else {
+      aboutLink.href = '/en/about/';
+      aboutLink.textContent = i18nData.en.about;
+      postsLink.href = '/en/posts/';
+      postsLink.textContent = i18nData.en.posts;
+    }
+  
+  languageSelect.value = currentLang;
+  
+  languageSelect.addEventListener('change', function() {
+    const newLang = this.value;
+    let newUrl;
+    
+    if (currentUrl.includes('/posts')) {
+      newUrl = `/${newLang}/posts/`;
+    } else if (currentUrl.includes('/about')) {
+      newUrl = `/${newLang}/about/`;
+    } else if (currentUrl.includes('/2025/') || currentUrl.includes('/20')) {
+      if (isSpanish) {
+        newUrl = currentUrl.replace('/es/', '/en/');
+      } else {
+        newUrl = currentUrl.replace('/en/', '/es/');
+      }
+    } else {
+      // For main pages: Spanish (/es/) <-> English (/)
+      if (newLang === 'es') {
+        newUrl = '/es/';
+      } else {
+        newUrl = '/';
+      }
+    }
+    
+    window.location.href = newUrl;
+  });
+})();
+</script> 

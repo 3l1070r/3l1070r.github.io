@@ -6,12 +6,13 @@ categories: [posts, deteccion-fraude, ciencia-datos, codigo-abierto]
 tags: [python, seguridad, algoritmos, analisis-datos]
 author: Elio Rincón
 lang: es
+permalink: /es/2025/01/24/building-dataspot.html
 description: "La historia detrás de crear dataspot - una librería open-source nacida de desafíos reales de detección de fraude y noches sin dormir pensando en patrones de datos."
 ---
 
 # Construyendo dataspot: Lecciones desde la Detección de Fraude Real
 
-Cómo obsesionarme con patrones de fraude llevó a una herramienta open-source que encuentra concentraciones de datos\_
+Cómo obsesionarme con patrones de fraude llevó a una herramienta open-source que encuentra concentraciones de datos
 
 ---
 

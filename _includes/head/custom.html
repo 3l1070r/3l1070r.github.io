@@ -1,13 +1,29 @@
-<!-- start custom head snippets -->
-
 {% if site.gtm_id and jekyll.environment == 'production' %}
-<!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','{{ site.gtm_id }}');</script>
-<!-- End Google Tag Manager -->
 {% endif %}
 
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+{% if page.url == "/" %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" hreflang="es" href="{{ site.url }}/es/" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+{% elsif page.url == "/es/" %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}/" />
+  <link rel="alternate" hreflang="es" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+{% elsif page.lang == "en" %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
+  {% assign spanish_url = page.url | replace: "/", "/es/" %}
+  <link rel="alternate" hreflang="es" href="{{ site.url }}{{ spanish_url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+{% elsif page.lang == "es" %}
+  {% assign english_url = page.url | replace: "/es/", "/" %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ english_url }}" />
+  <link rel="alternate" hreflang="es" href="{{ site.url }}{{ page.url }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ english_url }}" />
+{% endif %}
