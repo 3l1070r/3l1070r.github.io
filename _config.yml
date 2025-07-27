@@ -36,11 +36,11 @@ comments:
     label: "comment"
     repo: "3l1070r/3l1070r.github.io"
 
-# Analytics (opcional)
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: # Tu Google Analytics ID aquí
+    tracking_id: "GTM-WQ3GXLFP"
+    anonymize_ip: false
 
 # Author
 author:
