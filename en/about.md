@@ -107,4 +107,3 @@ I believe in:
 
 ---
 _Always building, always learning, always securing._
-!-- Tu contenido actual del about aquí -->

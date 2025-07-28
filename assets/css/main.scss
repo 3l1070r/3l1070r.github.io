@@ -1,47 +1,37 @@
 @charset "utf-8";
 
-// Import minimal-mistakes theme
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* Custom color overrides for minimal-mistakes theme */
 
-// Override primary color variables
 $primary-color: #16B798 !default;
 $link-color: #16B798 !default;
 
-/* Global Font Size Reduction - Aggressive override for all elements */
 html {
-  font-size: 12px !important; // Reduce from 16px default for compact look
+  font-size: 12px !important;
 }
 
-// Apply reduced size to ALL elements
 * {
   font-size: inherit !important;
 }
 
-// Main content text
 body, .page__content, .page__inner-wrap {
   font-size: 0.9em !important;
   line-height: 1.5 !important;
 }
 
-// Paragraphs
 p, .page__content p, .archive__item-excerpt p {
   font-size: 0.9em !important;
 }
 
-// Force on main content
 .page__content, .page__content * {
   font-size: 0.9em !important;
 }
 
-// Author profile
 .author__avatar, .author__content, .author__name, .author__bio {
   font-size: 0.8em !important;
 }
 
-// Headings
 h1 { font-size: 1.8em !important; }
 h2 { font-size: 1.5em !important; }
 h3 { font-size: 1.3em !important; }
@@ -49,7 +39,6 @@ h4 { font-size: 1.1em !important; }
 h5 { font-size: 1.0em !important; }
 h6 { font-size: 0.9em !important; }
 
-// Navigation
 .masthead {
   font-size: 0.85em !important;
 }
@@ -58,7 +47,6 @@ h6 { font-size: 0.9em !important; }
   font-size: 0.9em !important;
 }
 
-// Archive items (post lists) - More specific targeting
 .archive__item, .list__item, .grid__item {
   font-size: 0.85em !important;
 }
@@ -71,17 +59,14 @@ h6 { font-size: 0.9em !important; }
   font-size: 0.8em !important;
 }
 
-// Posts and specific entries
 .entries-list, .entries-list * {
   font-size: 0.85em !important;
 }
 
-// Metadata and dates
 .page__meta, .page__date, .archive__item-meta {
   font-size: 0.75em !important;
 }
 
-// Sidebar
 .sidebar {
   font-size: 0.85em !important;
 }
@@ -90,7 +75,6 @@ h6 { font-size: 0.9em !important; }
   font-size: 0.8em !important;
 }
 
-// Code blocks
 code {
   font-size: 0.8em !important;
 }
@@ -99,13 +83,11 @@ pre {
   font-size: 0.8em !important;
 }
 
-// Footer
 .page__footer, .page__footer * {
   background-color: #1a1a1a !important;
   font-size: 0.8em !important;
 }
 
-// Additional elements that might escape styling
 .page__title, .page__title * {
   font-size: 1.6em !important;
 }
@@ -114,29 +96,24 @@ pre {
   font-size: 0.95em !important;
 }
 
-// Breadcrumbs and navigation
 .breadcrumbs, .pagination, .page__nav {
   font-size: 0.8em !important;
 }
 
-// Buttons and links
 .btn, .btn * {
   font-size: 0.85em !important;
 }
 
-// Tables and lists
 table, table *, ul, ol, li {
   font-size: inherit !important;
 }
 
-// Ensure main content doesn't escape
 .layout--single .page__content, 
 .layout--home .page__content,
 .layout--archive .page__content {
   font-size: 0.9em !important;
 }
 
-// Primary buttons styling
 .btn--primary {
   background-color: #16B798 !important;
   border-color: #16B798 !important;
@@ -147,7 +124,6 @@ table, table *, ul, ol, li {
   }
 }
 
-// Social share buttons visibility
 .page__share .btn {
   color: #ffffff !important;
   
@@ -156,7 +132,6 @@ table, table *, ul, ol, li {
   }
 }
 
-// Links styling
 a {
   color: #16B798 !important;
   
@@ -165,7 +140,6 @@ a {
   }
 }
 
-// Tags and categories styling
 .page__taxonomy a {
   background-color: #16B798 !important;
   color: #ffffff !important;
@@ -176,7 +150,6 @@ a {
   }
 }
 
-/* Posts by Language Styling */
 .posts-by-language {
   margin-top: 2rem;
   
