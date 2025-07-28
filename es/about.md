@@ -7,7 +7,7 @@ lang: es
 author:
   name: "Elio Rincón"
   avatar: "https://gravatar.com/avatar/7407976f3a4cab233e085bf055d4d96f?s=400&d=robohash&r=x"
-  bio: "Lead Engineer apasionado por construir y arquitecturar soluciones de software escalables. Profundamente interesado en ciberseguridad, infraestructura robusta Linux/FreeBSD, y tecnología Bitcoin."
+  bio: "Líder de Ingeniería apasionado por construir y diseñar soluciones de software escalables. Profundamente interesado en ciberseguridad, infraestructura robusta Linux/FreeBSD, y tecnología Bitcoin."
   location: "Bogotá, Colombia"
   links:
     - label: "GitHub"
@@ -27,7 +27,8 @@ author:
 
 ---
 
-Lead Engineer apasionado por construir y arquitecturar soluciones de software escalables. Profundamente interesado en ciberseguridad, infraestructura robusta Linux/FreeBSD, y tecnología Bitcoin.
+Líder de Ingeniería apasionado por construir y diseñar soluciones de software escalables.
+Profundamente interesado en ciberseguridad, infraestructura robusta Linux/FreeBSD, y tecnología Bitcoin.
 
 ## 🚀 Trabajo Actual
 
