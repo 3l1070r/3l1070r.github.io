@@ -10,8 +10,6 @@ permalink: /en/2025/01/24/building-dataspot.html
 description: "The story behind creating dataspot - an open-source library born from real fraud detection challenges and sleepless nights thinking about data patterns."
 ---
 
-# Building dataspot: Lessons from Real-World Fraud Detection
-
 How obsessing over fraud patterns led to an open-source tool that finds data concentrations
 
 ---
