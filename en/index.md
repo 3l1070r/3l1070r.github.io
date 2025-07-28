@@ -5,6 +5,18 @@ title: "Software Architecture | Building fraud detection solutions | Cybersecuri
 permalink: /
 classes: wide
 lang: en
+author:
+  name: "Elio Rincón"
+  avatar: "https://gravatar.com/avatar/7407976f3a4cab233e085bf055d4d96f?s=400&d=robohash&r=x"
+  bio: "Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology."
+  location: "Bogotá, Colombia"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/3l1070r"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/3l1070r/"
 ---
 
 {% assign t = site.data.i18n[page.lang] %}

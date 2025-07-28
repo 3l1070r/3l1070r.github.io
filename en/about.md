@@ -6,7 +6,13 @@ author_profile: true
 lang: en
 ---
 
-Lead Engineer passionate about building and architecting scalable software solutions. Deeply interested in cybersecurity, robust Linux/FreeBSD infrastructure, and Bitcoin technology.
+{% assign t = site.data.i18n[page.lang] %}
+
+{{ t.author.bio }}
+
+### Location
+
+{{ t.author.location }}
 
 ## 🚀 Current Work
 

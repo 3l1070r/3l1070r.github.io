@@ -97,4 +97,4 @@ Creo en:
 
 ---
 
-_Siempre construyendo, siempre aprendiendo, siempre asegurando._ 
+_Siempre construyendo, siempre aprendiendo, siempre protegiendo._ 
