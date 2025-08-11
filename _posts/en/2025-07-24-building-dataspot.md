@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Building dataspot: Lessons from Real-World Fraud Detection"
-date: 2025-01-24
+date: 2025-07-24
 categories: [fraud-detection, data-science, open-source]
 tags: [python, security, algorithms, data-analysis]
 author: Elio Rincón

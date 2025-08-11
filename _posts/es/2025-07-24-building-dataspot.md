@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Construyendo dataspot: Lecciones desde la Detección de Fraude Real"
-date: 2025-01-24
+date: 2025-07-24
 categories: [posts, deteccion-fraude, ciencia-datos, codigo-abierto]
 tags: [python, seguridad, algoritmos, analisis-datos]
 author: Elio Rincón
